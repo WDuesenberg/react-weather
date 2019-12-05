@@ -17,3 +17,6 @@ My goal with this application was to gain a better understanding and improve my 
 I also wanted to create an application that had a practical daily use and would assist me in showcasing my skills
 as a Full Stack Developer.
 
+Future Goals
+I will be adding more style to this application and continue to revist the applications code and do anything I see fit to improve its functions and the overall user experience.
+
