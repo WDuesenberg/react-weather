@@ -20,3 +20,10 @@ as a Full Stack Developer.
 Future Goals
 I will be adding more style to this application and continue to revist the applications code and do anything I see fit to improve its functions and the overall user experience.
 
+Heroku
+https://react-weather89.herokuapp.com/
+
+Contact
+    LinkedIn: https://www.linkedin.com/in/wyatt-duesenberg-283910123/
+    Email: wyatt.duesenberg@gmail.com
+
