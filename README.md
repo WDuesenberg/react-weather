@@ -1,4 +1,4 @@
-**React Weather App**
+# React Weather App
 
 ***Overview***
 
@@ -26,7 +26,7 @@ as a Full Stack Developer.
 
 I will be adding more style to this application and continue to revist the applications code and do anything I see fit to improve its functions and the overall user experience.
 
-*Heroku*
+*Heroku:*
 https://react-weather89.herokuapp.com/
 
 *Contact:*
