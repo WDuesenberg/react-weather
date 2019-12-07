@@ -103,6 +103,7 @@ const App = () => {
               description={selectedDay.weather.description}
               windSpeed={selectedDay.wind_spd}
               windDir={selectedDay.wind_cdir_full}
+              windGust={selectedDay.wind_gust_spd}
             />
           ) : (
               <h3>Click on a day above to get weather details!</h3>
