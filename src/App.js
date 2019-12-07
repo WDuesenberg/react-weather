@@ -21,7 +21,7 @@ const App = () => {
 
   // only on initial render, trigger getWeather with Denver, CO
   useEffect(() => {
-    API.getWeather('Seattle, WA')
+    API.getWeather('Denver, CO')
   }, []);
 
   useEffect(() => {

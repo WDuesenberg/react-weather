@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from 'reactstrap';
+import { Col, Card, CardHeader, CardBody} from 'reactstrap';
 
 const DayDetails = props => {
 
@@ -9,7 +9,8 @@ const DayDetails = props => {
             <img src={`${process.env.PUBLIC_URL}/icons/${props.icon}.png`} alt={props.description} />
             <p><strong>High:</strong> {props.high}</p>
             <p><strong>Low:</strong> {props.low}</p>
-            <p><strong>Wind Speed:</strong> {props.wind_spd}</p>
+            <p><strong>Wind Speed:</strong> {props.windSpeed}</p>
+            <p><strong>Wind Direction:</strong> {props.windDir}</p>
         </div>
     )
 }
