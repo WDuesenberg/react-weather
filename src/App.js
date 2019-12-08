@@ -99,6 +99,7 @@ const App = () => {
               current={selectedDay.temp}
               high={selectedDay.max_temp}
               low={selectedDay.min_temp}
+              uvIndex={selectedDay.uv}
               icon={selectedDay.weather.icon}
               description={selectedDay.weather.description}
               windSpeed={selectedDay.wind_spd}
