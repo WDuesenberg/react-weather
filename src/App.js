@@ -64,11 +64,12 @@ const App = () => {
       alert("You must type a city to search!");
     }
   }
+  
   return (
     <Container>
       <Row>
-        <Col md={8}><h1>Weather for </h1></Col>
-        <Col md={4}><h2>{days.location}</h2>
+        <Col md={8}><h1>Weather for {location}</h1></Col>
+        <Col md={4}><h2> </h2>
           <SearchBar
             searchTerm={searchTerm}
             handleInputChange={handleInputChange}
