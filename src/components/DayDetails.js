@@ -13,6 +13,7 @@ const DayDetails = props => {
             <p><strong>Wind Gust Speed:</strong> {props.windGust}</p>
             <p><strong>Wind Direction:</strong> {props.windDir}</p>
             <p><strong>Probability of Precipitation:</strong> {props.probPrecip}</p>
+            <p><strong>Humidity:</strong> {props.humidity}</p>
         </div>
     )
 }
