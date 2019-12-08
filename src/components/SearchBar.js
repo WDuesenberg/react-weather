@@ -11,7 +11,7 @@ const SearchBar = props => {
                 type="text"
                 name="searchTerm" 
                 id="searchTerm" 
-                placeholder="Address or zip" 
+                placeholder="City, State" 
                 value={props.searchTerm}
                 onChange={props.handleInputChange}
             />
