@@ -2,10 +2,10 @@ import React from 'react';
 import { Col, Card, CardHeader, CardBody } from 'reactstrap';
 import styled from 'styled-components';
 
-const border = "2px solid green"
+const border = "3px solid deepskyblue"
 const DayWrapper = styled.article`
         .card {
-            border: ${props => props.isActive ? "4px solid teal" : "2px solid blue"};
+            border: ${props => props.isActive ? "4px solid teal" : "2px solid mediumblue"};
             text-align: center;
             margin-top: 25px; 
             margin-bottom: 15px;
