@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const border = "2px solid green"
 const DayWrapper = styled.article`
         .card {
-            border: ${props => props.isActive ? "2px solid teal" : "1px solid blue"};
+            border: ${props => props.isActive ? "4px solid teal" : "2px solid blue"};
             text-align: center;
             margin-top: 25px; 
             margin-bottom: 15px;
