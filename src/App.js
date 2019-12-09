@@ -108,6 +108,8 @@ const App = () => {
               windDir={selectedDay.wind_cdir_full}
               probPrecip={selectedDay.pop}
               humidity={selectedDay.rh}
+              snow={selectedDay.snow}
+              snowDepth={selectedDay.snow_depth}
             />
           ) : (
               <h3>Click on a day above to get weather details!</h3>

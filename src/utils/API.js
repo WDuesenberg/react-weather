@@ -6,5 +6,7 @@ export default {
     getWeather: function(city) {
         // return promise object
         return axios.get(`https://api.weatherbit.io/v2.0/forecast/daily?days=7&units=I&key=${weatherKey}&city=${city}`);
+        // return axios.get(`https://api.weatherbit.io/v2.0/forecast/daily?days=7&units=I&key=${weatherKey}&city=${city}`);
+
     }
 }
