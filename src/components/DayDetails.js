@@ -8,7 +8,8 @@ const DayWrapper = styled.article`
             border: ${props => props.isActive ? "4px solid teal" : "5px outset mediumblue"};
             text-align: center;
             margin-top: 35px; 
-            margin-bottom: 15px;
+            margin-bottom: 35px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
         img {
             width: 175px;
