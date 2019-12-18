@@ -5,9 +5,9 @@ import styled from 'styled-components';
 const border = "2px solid skyblue"
 const DayWrapper = styled.article `
         .card {
-            border: ${props => props.isActive ? "4px solid royalblue" : "2px solid cornflowerblue"};
+            border: ${props => props.isActive ? "4px solid royalblue" : "3px outset cornflowerblue"};
             text-align: center;
-            margin-top: 15px; 
+            margin-top: 25px; 
         }
         img {
             width: 55px;

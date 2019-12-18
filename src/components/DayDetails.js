@@ -2,12 +2,12 @@ import React from 'react';
 import { Col, Card, CardHeader, CardBody } from 'reactstrap';
 import styled from 'styled-components';
 
-const border = "3px solid deepskyblue"
+const border = "3.3px inset deepskyblue"
 const DayWrapper = styled.article`
         .card {
-            border: ${props => props.isActive ? "4px solid teal" : "5px solid mediumblue"};
+            border: ${props => props.isActive ? "4px solid teal" : "5px outset mediumblue"};
             text-align: center;
-            margin-top: 25px; 
+            margin-top: 35px; 
             margin-bottom: 15px;
         }
         img {
